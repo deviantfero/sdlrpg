@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+g++ -o run.bin $1 -lSDL2 -lSDL2_mixer -lSDL2_image
