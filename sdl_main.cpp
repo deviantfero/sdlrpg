@@ -21,7 +21,7 @@ int main( int argc, char** argv ) {
 	SDL_Rect testpos = { 100, 100, 200, 200 };
 	SDL_Rect testsize = { 100, 100, 200, 200 };
 	w1.init_window( WIN_W, WIN_H, (char*)"RPG Battle SIM" );
-	SDL_Surface* image = IMG_Load( "./img/einstein.jpg" );
+	SDL_Surface* image = IMG_Load( "./img/forest2.jpg" );
 	if( image == NULL ){
 		std::cout << "SDL_IMG ERROR:" << IMG_GetError() << std::endl;
 		SDL_Quit();
